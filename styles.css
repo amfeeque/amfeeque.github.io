@@ -1,0 +1,78 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 3 version
+*/
+
+* {
+  margin: 0;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+body {
+  background-color: #11141d;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.help {
+  top: 51%;
+  color: #d4d4d4;
+  position: absolute;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 1px 1px 2px #ffffff;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border-bottom: 10px solid #2787f5;
+}
+
+.icons {
+  top: 50%;
+  margin-top: -128px;
+  position: absolute;
+}
+
+.icons > a > svg {
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.icons > a > svg:hover {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 1.5s;
+       -o-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+}
+
+.copyright {
+  top: 97%;
+  color: #d4d4d4;
+  position: absolute;
+}
+
+.copyright > a {
+  color: #2787f5;
+}
+
+.copyright > a:hover {
+  text-decoration: underline;
+}
